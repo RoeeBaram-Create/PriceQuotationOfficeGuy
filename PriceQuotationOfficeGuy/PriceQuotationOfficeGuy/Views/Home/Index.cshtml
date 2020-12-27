@@ -1,0 +1,52 @@
+﻿
+
+@{
+    ViewData["Title"] = "CreatePriceQuotation";
+}
+
+
+@model PriceQuotationCreationDto;
+
+@{
+    ViewBag.Title = "Create Price Quotation";
+}
+
+<h1>Create Price Quotation</h1>
+
+@using (Html.BeginForm("CreatePriceQuotation", "Home"))
+{
+
+   
+<div class="form-horizontal">
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CustomerName, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.CustomerName, new { htmlAttributes = new { @class = "form-control" } })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Amount, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Amount, new { htmlAttributes = new { @class = "form-control" } })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.ProductName, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.ProductName, new { htmlAttributes = new { @class = "form-control" } })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <button class="btn btn-primary" type="submit">Create</button>
+        </div>
+    </div>
+</div>
+
+}
+
+

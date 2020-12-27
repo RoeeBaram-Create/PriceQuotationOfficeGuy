@@ -1,0 +1,43 @@
+﻿
+
+
+@model PriceQuotationResponseDto;
+
+@{
+    ViewData["Title"] = "GetPriceQuotationResponse";
+}
+
+<h1>Price Quotation Response</h1>
+<br />
+
+
+@if (Model.IsValidResponse == true)
+{
+
+    <h2 style="color:blue;">
+        Price Quotation Successfully created!
+    </h2>
+
+
+    <br />
+    <h4>
+        <a href=@Url.Content(Model.DownLoadPdfPriceQuotation)> Click here to download the Pdf file</a>
+    </h4>
+}
+else
+{
+    <h2 style="color:red;">
+        Price Quotation created failed!
+    </h2>
+    <br />
+    <h4>Error Message: @Model.ErrorMessage</h4>
+}
+
+<br />
+<br />
+<br />
+
+@Html.ActionLink("click here to create new Price Quotation ", "Index", "Home")
+
+
+
