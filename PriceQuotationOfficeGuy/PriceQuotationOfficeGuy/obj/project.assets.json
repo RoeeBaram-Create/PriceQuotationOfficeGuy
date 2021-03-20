@@ -6216,11 +6216,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\roeeb\\source\\repos\\PriceQuotationOfficeGuy\\PriceQuotationOfficeGuy\\PriceQuotationOfficeGuy.csproj",
+      "projectUniqueName": "C:\\GitRepositories\\PriceQuotationOfficeGuyRepository\\PriceQuotationOfficeGuy\\PriceQuotationOfficeGuy\\PriceQuotationOfficeGuy.csproj",
       "projectName": "PriceQuotationOfficeGuy",
-      "projectPath": "C:\\Users\\roeeb\\source\\repos\\PriceQuotationOfficeGuy\\PriceQuotationOfficeGuy\\PriceQuotationOfficeGuy.csproj",
+      "projectPath": "C:\\GitRepositories\\PriceQuotationOfficeGuyRepository\\PriceQuotationOfficeGuy\\PriceQuotationOfficeGuy\\PriceQuotationOfficeGuy.csproj",
       "packagesPath": "C:\\Users\\roeeb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\roeeb\\source\\repos\\PriceQuotationOfficeGuy\\PriceQuotationOfficeGuy\\obj\\",
+      "outputPath": "C:\\GitRepositories\\PriceQuotationOfficeGuyRepository\\PriceQuotationOfficeGuy\\PriceQuotationOfficeGuy\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

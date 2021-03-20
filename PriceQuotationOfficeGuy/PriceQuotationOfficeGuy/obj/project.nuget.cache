@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "flcpYKJYkGP8xtfHKDICRsM0GfYCnwTiQ9n3lne8OlBl95wY5umFS/76ae37ahHkR4SaykYXLrq/a12E2xyFWQ==",
+  "dgSpecHash": "sq9+k6cu/fe5PD0Yo8zpFDKpb/EafGDQJ15fAwrVgmIEcNcgAH8qJivI3aqIntVKIr8uWqyfWfXLvperPXn8LA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\roeeb\\source\\repos\\PriceQuotationOfficeGuy\\PriceQuotationOfficeGuy\\PriceQuotationOfficeGuy.csproj",
+  "projectFilePath": "C:\\GitRepositories\\PriceQuotationOfficeGuyRepository\\PriceQuotationOfficeGuy\\PriceQuotationOfficeGuy\\PriceQuotationOfficeGuy.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\roeeb\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.3\\microsoft.aspnet.mvc.5.2.3.nupkg.sha512",
     "C:\\Users\\roeeb\\.nuget\\packages\\microsoft.aspnet.razor\\3.2.3\\microsoft.aspnet.razor.3.2.3.nupkg.sha512",
