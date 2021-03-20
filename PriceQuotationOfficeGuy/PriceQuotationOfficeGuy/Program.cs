@@ -13,7 +13,7 @@ namespace PriceQuotationOfficeGuy
     {
         public static void Main(string[] args)
         {
-            //CreateHostBuilder(args).Build().Run();
+            CreateHostBuilder(args).Build().Run();string x = "ads";
 
            //aaa
         }
